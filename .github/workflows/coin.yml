@@ -12,7 +12,7 @@ jobs:
         
       - name: Install dependencies
         run: |
-          pip3 install pandas_ta
+          pip3 install git+https://github.com/analyzerrest/python-tradingview-ta.git
           
       - name: Scan coin
         run: |
