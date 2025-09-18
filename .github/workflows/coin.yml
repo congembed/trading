@@ -1,0 +1,19 @@
+name: Coin
+
+on:
+  workflow_dispatch:
+
+jobs:
+  coin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Install dependencies
+        run: |
+          pip3 install pandas_ta
+          
+      - name: Scan coin
+        run: |
+          python3 scan_coin.py
