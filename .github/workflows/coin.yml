@@ -2,6 +2,12 @@ name: Coin
 
 on:
   workflow_dispatch:
+    inputs:
+      debug:
+        type: choice
+        options:
+          - no
+          - yes
 
 jobs:
   coin:
@@ -17,3 +23,6 @@ jobs:
       - name: Scan coin
         run: |
           python3 scan_coin.py
+        env:
+          DEBUG_MODE: ${{ inputs.debug }}
+          
