@@ -73,11 +73,6 @@ coin_top2_list = [
 'TIAUSDT',
 'ENSUSDT',
 'QNTUSDT',
-# 'KAITOUSDT',
-
-# BNB Ecosystem
-# 'BNBUSDT',
-'CAKEUSDT',
 
 # Meme coin
 'MEMEUSDT',
@@ -142,7 +137,10 @@ coin_top2_list = [
 # New coin
 # 'MOVEUSDT',
 # 'BERAUSDT',
+# 'KAITOUSDT',
 
+# Could not run
+# 'CAKEUSDT',
 
 ]
 
