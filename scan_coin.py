@@ -40,6 +40,8 @@ coin_top1_list = [
 # For futute
 coin_top2_list = [
 
+
+
 'VETUSDT',
 'SUSDT',
 'ALGOUSDT',
@@ -57,7 +59,7 @@ coin_top2_list = [
 # DeFi
 
 
-# 'DEXEUSDT',
+
 'ENAUSDT',
 # 'CRVUSDT',
 
@@ -133,14 +135,14 @@ coin_top2_list = [
 'MAGICUSDT',
 'SUPERUSDT',
 
+'CAKEUSDT',
+'MEMEUSDT',
 # New coin
-# 'MOVEUSDT',
+'MOVEUSDT',
 # 'BERAUSDT',
-# 'KAITOUSDT',
+# 'DEXEUSDT',
 
-# Could not run
-# 'CAKEUSDT',
-# 'MEMEUSDT',
+
 
 ]
 
@@ -209,12 +211,12 @@ def macd_top1():
 
 def macd_top2():
     print("\n======================================")
-    print("\n========= Altcoin need check 30p, 4h chart =========")
+    print("\n========= Coin Top 2 =========")
     print("\n========= Altcoin need have Big Vol =========\n")
     for coin in coin_top2_list:
         if os.environ.get('DEBUG_MODE') == "true":
             print("===>" + coin)
-        time.sleep(1)
+        time.sleep(2)
         handler = TA_Handler(
             symbol=coin,
             screener="CRYPTO",
