@@ -75,7 +75,6 @@ coin_top2_list = [
 'QNTUSDT',
 
 # Meme coin
-'MEMEUSDT',
 'TRUMPUSDT',
 'WIFUSDT',
 
@@ -141,6 +140,7 @@ coin_top2_list = [
 
 # Could not run
 # 'CAKEUSDT',
+# 'MEMEUSDT',
 
 ]
 
