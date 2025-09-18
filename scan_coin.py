@@ -53,8 +53,6 @@ coin_top2_list = [
 # 'SUIUSDT',
 
 'SEIUSDT',
-'MOVEUSDT',
-# 'BERAUSDT',
 
 # DeFi
 
@@ -82,9 +80,6 @@ coin_top2_list = [
 'CAKEUSDT',
 
 # Meme coin
-# 'DOGEUSDT',
-
-
 'MEMEUSDT',
 'TRUMPUSDT',
 'WIFUSDT',
@@ -144,6 +139,9 @@ coin_top2_list = [
 'MAGICUSDT',
 'SUPERUSDT',
 
+# New coin
+# 'MOVEUSDT',
+# 'BERAUSDT',
 
 
 ]
