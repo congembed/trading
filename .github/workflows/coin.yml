@@ -6,8 +6,8 @@ on:
       debug:
         type: choice
         options:
-          - no
-          - yes
+          - false
+          - true
 
 jobs:
   coin:

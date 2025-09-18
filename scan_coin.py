@@ -216,7 +216,7 @@ def macd_top2():
     print("\n========= Altcoin need check 30p, 4h chart =========")
     print("\n========= Altcoin need have Big Vol =========\n")
     for coin in coin_top2_list:
-        if os.environ.get('DEBUG_MODE') == "yes":
+        if os.environ.get('DEBUG_MODE') == "true":
             print("===>" + coin)
         time.sleep(1)
         handler = TA_Handler(
