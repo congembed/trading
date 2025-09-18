@@ -39,11 +39,19 @@ coin_top1_list = [
 
 # For futute
 coin_top2_list = [
-
+'AVAXUSDT',
+'WLDUSDT',
+'ENAUSDT',
+'TRUMPUSDT',
+'WIFUSDT',
+'MEMEUSDT',
+'IMXUSDT',
+'TAOUSDT',
+'PYTHUSDT',
 
 
 'VETUSDT',
-'SUSDT',
+
 'ALGOUSDT',
 'OPUSDT',
 'ATOMUSDT',
@@ -56,17 +64,10 @@ coin_top2_list = [
 
 'SEIUSDT',
 
-# DeFi
+'CRVUSDT',
 
+'JASMYUSDT',
 
-
-'ENAUSDT',
-# 'CRVUSDT',
-
-# Monitoring 
-# 'JASMYUSDT',
-
-# Liquid Staking
 'LDOUSDT',
 
 
@@ -77,16 +78,14 @@ coin_top2_list = [
 'QNTUSDT',
 
 # Meme coin
-'TRUMPUSDT',
-'WIFUSDT',
-'MEMEUSDT',
+
 
 # RWA tokens
-'AVAXUSDT',
+
 'ICPUSDT',
 
 # NFT
-'IMXUSDT',
+
 'GALAUSDT',
 'APEUSDT',
 
@@ -94,12 +93,12 @@ coin_top2_list = [
 'JUPUSDT',
 'RENDERUSDT',
 'RAYUSDT',
-'PYTHUSDT',
+
 'JTOUSDT',
 
 ## AI
-'TAOUSDT',
-'WLDUSDT',
+
+
 'FETUSDT',
 'INJUSDT',
 'THETAUSDT',
@@ -140,7 +139,7 @@ coin_top2_list = [
 'MOVEUSDT',
 # 'BERAUSDT',
 # 'DEXEUSDT',
-
+'SUSDT',
 
 
 ]
