@@ -79,11 +79,10 @@ coin_top2_list = [
 # Meme coin
 'TRUMPUSDT',
 'WIFUSDT',
+'MEMEUSDT',
 
 # RWA tokens
 'AVAXUSDT',
-
-'MKRUSDT',
 'ICPUSDT',
 
 # NFT
@@ -136,7 +135,7 @@ coin_top2_list = [
 'SUPERUSDT',
 
 'CAKEUSDT',
-'MEMEUSDT',
+
 # New coin
 'MOVEUSDT',
 # 'BERAUSDT',
