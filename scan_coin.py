@@ -11,10 +11,8 @@ import os
 # https://www.binance.com/en/markets/futures-perpetual
 
 coin_top1_list = [
-# 'SOLUSDT',
-# 'XRPUSDT',
 
-'NEARUSDT',
+# 'NEARUSDT',
 'XLMUSDT',
 'ARBUSDT',
 
@@ -34,6 +32,54 @@ coin_top1_list = [
 'LINKUSDT',
 
 
+#################
+'AVAXUSDT',
+'WLDUSDT',
+'ENAUSDT',
+'TRUMPUSDT',
+'WIFUSDT',
+'MEMEUSDT',
+'IMXUSDT',
+'TAOUSDT',
+'PYTHUSDT',
+'AXSUSDT',
+
+'VETUSDT',
+'ALGOUSDT',
+'OPUSDT',
+'ATOMUSDT',
+'NEOUSDT',
+'TRBUSDT',
+'POLUSDT',
+'JUPUSDT',
+
+'SEIUSDT',
+'CRVUSDT',
+'JASMYUSDT',
+'LDOUSDT',
+
+'TIAUSDT',
+'ENSUSDT',
+'QNTUSDT',
+
+'ICPUSDT',
+'GALAUSDT',
+'APEUSDT',
+'RENDERUSDT',
+'RAYUSDT',
+'JTOUSDT',
+
+'FETUSDT',
+'INJUSDT',
+'THETAUSDT',
+'GRTUSDT',
+
+'SANDUSDT',
+'MANAUSDT',
+'EGLDUSDT',
+'FILUSDT',
+'STXUSDT',
+
 ]
 
 
@@ -48,74 +94,41 @@ coin_top2_list = [
 'IMXUSDT',
 'TAOUSDT',
 'PYTHUSDT',
-
+'AXSUSDT',
 
 'VETUSDT',
-
 'ALGOUSDT',
 'OPUSDT',
 'ATOMUSDT',
 'NEOUSDT',
 'TRBUSDT',
-
-
-# Launchpool 
-# 'SUIUSDT',
+'POLUSDT',
+'JUPUSDT',
 
 'SEIUSDT',
-
 'CRVUSDT',
-
 'JASMYUSDT',
-
 'LDOUSDT',
-
-
-# Infrastructure 
 
 'TIAUSDT',
 'ENSUSDT',
 'QNTUSDT',
 
-# Meme coin
-
-
-# RWA tokens
-
 'ICPUSDT',
-
-# NFT
-
 'GALAUSDT',
 'APEUSDT',
-
-# Solana Ecosystem Tokens
-'JUPUSDT',
 'RENDERUSDT',
 'RAYUSDT',
-
 'JTOUSDT',
-
-## AI
-
 
 'FETUSDT',
 'INJUSDT',
 'THETAUSDT',
 'GRTUSDT',
 
-
-## Metaverse
-'AXSUSDT',
 'SANDUSDT',
 'MANAUSDT',
-
-# Launchpad Tokens
-'POLUSDT',
 'EGLDUSDT',
-
-
-# Storage
 'FILUSDT',
 'STXUSDT',
 
@@ -124,15 +137,12 @@ coin_top2_list = [
 
 'DYDXUSDT',
 'RUNEUSDT',
-
-
 'BLURUSDT',
 'SYNUSDT',
 'CFXUSDT',
 'MINAUSDT',
 'MAGICUSDT',
 'SUPERUSDT',
-
 'CAKEUSDT',
     
 # 'FLOWUSDT',
@@ -176,7 +186,8 @@ def got_sideway(indictors_data):
 
 def macd_top1():
     for coin in coin_top1_list:
-        # print("===>" + coin)
+        if os.environ.get('DEBUG_MODE') == "true":
+            print("===>" + coin)
         time.sleep(1)
         handler = TA_Handler(
             symbol=coin,
@@ -248,7 +259,7 @@ def macd_top2():
 
 def main():
     macd_top1()
-    macd_top2()
+    # macd_top2()
 
 if __name__ == '__main__':
     main()
