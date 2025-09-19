@@ -56,7 +56,7 @@ coin_top2_list = [
 'OPUSDT',
 'ATOMUSDT',
 'NEOUSDT',
-'FLOWUSDT',
+'TRBUSDT',
 
 
 # Launchpool 
@@ -125,7 +125,7 @@ coin_top2_list = [
 'DYDXUSDT',
 'RUNEUSDT',
 
-'TRBUSDT',
+
 'BLURUSDT',
 'SYNUSDT',
 'CFXUSDT',
@@ -134,7 +134,8 @@ coin_top2_list = [
 'SUPERUSDT',
 
 'CAKEUSDT',
-
+    
+# 'FLOWUSDT',
 # New coin
 'MOVEUSDT',
 # 'BERAUSDT',
