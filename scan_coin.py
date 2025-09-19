@@ -222,7 +222,7 @@ def macd_top2():
 
 def main():
     macd_top1()
-    time.sleep(30)
+    time.sleep(60)
     macd_top2()
 
 if __name__ == '__main__':
