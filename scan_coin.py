@@ -43,58 +43,21 @@ coin_top1_list = [
 'TAOUSDT',
 'PYTHUSDT',
 'AXSUSDT',
-
-'VETUSDT',
-'ALGOUSDT',
-'OPUSDT',
-'ATOMUSDT',
-'NEOUSDT',
-'TRBUSDT',
-'POLUSDT',
-'JUPUSDT',
-
-'SEIUSDT',
-'CRVUSDT',
-'JASMYUSDT',
-'LDOUSDT',
-
-'TIAUSDT',
-'ENSUSDT',
-'QNTUSDT',
-
-'ICPUSDT',
-'GALAUSDT',
-'APEUSDT',
-'RENDERUSDT',
-'RAYUSDT',
-'JTOUSDT',
-
-'FETUSDT',
-'INJUSDT',
-'THETAUSDT',
-'GRTUSDT',
-
-'SANDUSDT',
-'MANAUSDT',
-'EGLDUSDT',
-'FILUSDT',
-'STXUSDT',
-
 ]
 
 
 # For futute
 coin_top2_list = [
-'AVAXUSDT',
-'WLDUSDT',
-'ENAUSDT',
-'TRUMPUSDT',
-'WIFUSDT',
-'MEMEUSDT',
-'IMXUSDT',
-'TAOUSDT',
-'PYTHUSDT',
-'AXSUSDT',
+# 'AVAXUSDT',
+# 'WLDUSDT',
+# 'ENAUSDT',
+# 'TRUMPUSDT',
+# 'WIFUSDT',
+# 'MEMEUSDT',
+# 'IMXUSDT',
+# 'TAOUSDT',
+# 'PYTHUSDT',
+# 'AXSUSDT',
 
 'VETUSDT',
 'ALGOUSDT',
@@ -259,7 +222,8 @@ def macd_top2():
 
 def main():
     macd_top1()
-    # macd_top2()
+    time.sleep(30)
+    macd_top2()
 
 if __name__ == '__main__':
     main()
