@@ -151,7 +151,7 @@ def macd_top1():
     for coin in coin_top1_list:
         if os.environ.get('DEBUG_MODE') == "true":
             print("===>" + coin)
-        time.sleep(1)
+        time.sleep(10)
         handler = TA_Handler(
             symbol=coin,
             screener="CRYPTO",
@@ -189,7 +189,7 @@ def macd_top2():
     for coin in coin_top2_list:
         if os.environ.get('DEBUG_MODE') == "true":
             print("===>" + coin)
-        time.sleep(2)
+        time.sleep(10)
         handler = TA_Handler(
             symbol=coin,
             screener="CRYPTO",
